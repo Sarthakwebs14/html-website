@@ -1,0 +1,117 @@
+@media (max-width:500px) {
+  body{
+    background-color:white;
+  }
+
+  hr{
+    width:250px;
+    border:2px solid white;
+    color:white;
+    height:1px;
+    background-color: white;
+  }
+  .hero{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:#FFF6BD;
+    justify-content: space-evenly;
+    border-radius:5px;
+    margin-bottom:10px;
+  }
+  .bimg{
+    width:200px;
+    height: 100px;
+    object-fit: contain;
+  }
+  .banner-text{
+    color:#FAAB78;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size:12px;
+    margin:5px 5px 10px 5px;
+    text-align: left;
+    }
+
+  .catagories{
+    background-color:white;
+    display:grid;
+    gap:5px;
+    height:370px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr;
+  }
+  .one{
+    grid-area:1/1/2/3;
+  }
+  .catagories p{
+    font-family: 'Bubblegum Sans', cursive;
+    font-size:16px;
+    margin-left:2px;
+    text-align: left;
+    color:#FAAB78;
+  }
+  .flexed {
+    display:flex;
+    margin:0px 5px 10px 5px;
+    border-radius:5px;
+    align-items:flex-start
+  }
+  .two{
+    grid-area:2/1/3/3;
+  }
+  .three{
+    grid-area:3/1/4/3;
+  }
+  .four{
+    grid-area:4/1/5/3;
+  }
+  .five{
+    grid-area:5/1/6/3;
+  }
+
+  .flexed p{
+    font-size:12px;
+    text-align:left;
+    margin:0px 0px 0px 8px;
+  }
+
+  .flexed img{
+    width:100px;
+    border-radius:4px;
+    object-fit: contain;
+  }
+  a{
+    font-family:'Bubblegum Sans', cursive;
+    font-size:12px;
+    color:#B799FF;
+    line-height:30px;
+    text-decoration:none;
+    background-color:#FFF6BD;
+    padding:5px;
+    border-radius:5px;
+  }
+
+  .footer{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#FFF6BD;
+    height:40px;
+    width:210px;
+    margin: 80px 0px 0px 0px;
+    border-radius: 5px;
+  }
+  button{
+   padding: 2px 2px 2px 2px;
+    color:#FAAB78;
+    background-color:white;
+    border:2px solid #FAAB78;
+    border-radius: 5px;
+    cursor:pointer;
+  }
+  button:active{
+    background-color:#FAAB78;
+    color:white;
+  }
+}
+  
